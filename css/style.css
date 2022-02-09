@@ -25,12 +25,7 @@ p{
   border-radius: 10%;
 
 }
-@media (max-width:450) {
-  .box{
-    width: 225px;
-  }
 
-}
 .image{
   border-radius: 10%;
 }
@@ -41,4 +36,10 @@ p{
      }
 .attribution a {
   color: hsl(228, 45%, 44%);
+ }
+ @media (max-width: 400px) {
+   .box{
+     width: 200px;
+   }
+
  }
